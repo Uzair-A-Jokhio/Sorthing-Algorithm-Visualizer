@@ -16,6 +16,7 @@ class DrawInformation:
         (0, 102, 51),   # Dark Olive Green or Dark Green
         (0, 0, 0)       # Black or Dark Charcoal Gray
     ]
+	
 	TEXT_COLOR = (0, 0, 0)  # White
 
 	FONT = pygame.font.SysFont('', 30)
@@ -137,7 +138,7 @@ def main():
 	run = True
 	clock = pygame.time.Clock()
 
-	n = 70
+	n = 100
 	min_val = 0
 	max_val = 100
 
